@@ -13,6 +13,7 @@ members = [
     "crates/openlogi-camera",
     "crates/openlogi-permissions",
     "crates/openlogi-assets",
+    "crates/openlogi-marketplace",
     "crates/openlogi-cli",
     "crates/openlogi-ipc",
     "crates/openlogi-flow",

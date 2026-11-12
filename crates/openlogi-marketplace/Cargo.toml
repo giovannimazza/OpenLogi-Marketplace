@@ -1,0 +1,20 @@
+[package]
+name = "openlogi-marketplace"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+description = "Logi Marketplace catalog client and .lplug4 plugin package reader/installer."
+keywords = ["logitech", "openlogi", "plugins"]
+categories = ["hardware-support"]
+
+[dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+ureq = { workspace = true }
+thiserror = { workspace = true }
+
+[lints]
+workspace = true
